@@ -15,7 +15,7 @@ public class BankService {
 	@RequestMapping(method = RequestMethod.GET, path = "account")
 	public String openAccount(@RequestParam(name = "accountid") String accountid) {
 		logger.info("you are opening a account with " + accountid);
-		return "You Opened a Acccount Successfully " + accountid;
+		return "You Opened a Acccount Successfully ";
 	}
 
 	@RequestMapping(method = RequestMethod.GET, path = "account1")
